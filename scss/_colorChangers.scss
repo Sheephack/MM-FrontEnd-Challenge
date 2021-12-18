@@ -1,0 +1,115 @@
+// Color changers classes for the background of each section
+.color-grey{
+    background-color: $backgroundColor;
+}
+.color-yellow{
+    background-color: $backgroundColor2;
+}
+.color-blue{
+    background-color: $tittleColor5 ;
+}
+.color-violet{
+    background-color: $backgroundColor3 ;
+}
+.color-lime{
+    background-color: $tittleColor6 ;
+}
+.color-green{
+    background-color: $backgroundColor4;
+}
+
+// Color changers classes for the MM Logo (it requieres a filter to be applied in the SVG image)
+.logo-grey{
+    filter: initial;
+}
+.logo-yellow{
+    filter: invert(18%) sepia(80%) saturate(6816%) hue-rotate(272deg) brightness(84%) contrast(87%);
+}
+.logo-blue{
+    filter: invert(55%) sepia(39%) saturate(372%) hue-rotate(30deg) brightness(164%) contrast(108%);
+}
+.logo-violet{
+    filter: invert(29%) sepia(43%) saturate(7027%) hue-rotate(331deg) brightness(101%) contrast(101%);
+}
+.logo-lime{
+    filter: invert(20%) sepia(85%) saturate(3250%) hue-rotate(195deg) brightness(65%) contrast(119%);
+}
+.logo-green{
+    filter: invert(81%) sepia(25%) saturate(6572%) hue-rotate(39deg) brightness(91%) contrast(101%);
+}
+
+//Color changers classes for the nav menu.
+
+.nav-grey{
+    border: 2px solid $tittleColor;
+    &:hover{
+        background: $tittleColor;
+        .navItem-grey{
+            color: $backgroundColor;
+        }
+    }
+}
+.navItem-grey{
+    color: $tittleColor;
+}
+.nav-yellow{
+    border: 2px solid $tittleColor2;
+    &:hover{
+        background: $tittleColor2;
+        .navItem-yellow{
+            color: $backgroundColor2;
+        }
+        
+    }
+}
+.navItem-yellow{
+    color: $tittleColor2;
+}
+.nav-blue{
+    border: 2px solid $tittleColor3;
+    &:hover{
+        background: $tittleColor3;
+        .navItem-blue{
+            color: $tittleColor5;
+        }
+    }
+}
+.navItem-blue{
+    color: $tittleColor3;
+}
+.nav-violet{
+    border: 2px solid $tittleColor4;
+    &:hover{
+        background: $tittleColor4;
+        .navItem-violet{
+            color: $backgroundColor3;
+        }
+    }
+}
+.navItem-violet{
+    color: $tittleColor4;
+}
+.nav-lime{
+    border: 2px solid $tittleColor5;
+    &:hover{
+        background: $tittleColor5;
+        .navItem-lime{
+            color: $tittleColor6;
+        }
+    }
+}
+.navItem-lime{
+    color: $tittleColor5;
+}
+.nav-green{
+    border: 2px solid $tittleColor6;
+    &:hover{
+        background: $tittleColor6;
+        .navItem-green{
+            color: $backgroundColor4;
+        }
+    }
+}
+.navItem-green{
+    color: $tittleColor6;
+}

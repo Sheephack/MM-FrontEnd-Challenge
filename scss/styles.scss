@@ -1,6 +1,7 @@
 @import "background";
 @import "variables";
 @import "navbar";
+@import "colorChangers";
 
 *{
     margin:0;
@@ -144,6 +145,14 @@ body{
             .section-5__paragraph{
                 @extend .section-2__paragraph;
             }
+            .section-5__midContainer{
+                display: flex;
+                justify-content: center;
+                width: 40%;
+                &__img{
+                    width: 40%
+                }
+            }
         }
 
         #section-6{
@@ -162,12 +171,13 @@ body{
 }
 section{
     height: 100vh;
+    min-height: 100vh;
 }
 .parallax{
     background-image: url(../assets/Art.svg);
-    background-attachment: fixed;
-    background-position: bottom;
-    background-position-x: 100%;
     background-repeat: no-repeat;
-    background-size: contain;
+    background-position: bottom;
+    background-position-x: right;
+    perspective: 1px;
+    
 }

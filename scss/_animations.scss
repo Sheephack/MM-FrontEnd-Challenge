@@ -11,7 +11,7 @@
     animation: appear 2s ease-in-out;
 }
 .vibrate {
-    animation: vibrate 0.8s linear infinite both;
+    animation: appear 2s ease-in-out, vibrate 0.8s linear infinite both;
 }
 
 @keyframes appear {

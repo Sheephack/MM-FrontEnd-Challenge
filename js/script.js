@@ -82,6 +82,7 @@ $(function(){
     let section4Top = section4.offset().top;
     let section5 = $('.section-5__tittle');
     let section5P = $('.section-5__paragraph');
+    let section5Img = $('.section-5__midContainer');
     let section5Top = section5.offset().top;
     let windowHeight = $(window).height()
     
@@ -107,8 +108,25 @@ $(function(){
         if ( scroll >= ( section5Top - windowHeight )){
             section5.addClass("appear")
             section5P.addClass("appear")
+            section5Img.addClass("appear")
         }
     })
 })
 
+// Parallax effect thanks to http://pixelcog.github.io/parallax.js/
+$(function(){
 
+    var parallax = document.querySelectorAll("parallaxImage"),
+        speed = 0.5;
+  
+    $(window).scroll(function(){
+      [].slice.call(parallax).forEach(function(el,i){
+  
+        var windowYOffset = window.pageYOffset,
+            elBackgrounPos = "50% " + (windowYOffset * speed) + "px";
+  
+        el.style.backgroundPosition = elBackgrounPos;
+  
+      });
+    })
+});

@@ -243,7 +243,7 @@
 }
 
 .vibrate {
-  animation: vibrate 0.8s linear infinite both;
+  animation: appear 2s ease-in-out, vibrate 0.8s linear infinite both;
 }
 
 @keyframes appear {
@@ -326,6 +326,17 @@
     transform: translate(0);
   }
 }
+.parallax-mirror {
+  display: flex;
+  justify-content: flex-end;
+  left: 230px !important;
+}
+
+.parallax-slider {
+  filter: opacity(50%);
+  top: -270px;
+}
+
 * {
   margin: 0;
   padding: 0;

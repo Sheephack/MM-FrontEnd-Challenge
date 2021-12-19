@@ -4,6 +4,6 @@ This repository has been made to host the Media.Monks Frontend Challenge. The re
 
 ## Version changes:
 
-- Removed Parallax from structure. (Will be added next)
-- Added animations.
-- Corrections to font-size and overall size of elements.
+- Added Parallax Effect.
+- Animations overhaul.
+- Desktop Version complete.

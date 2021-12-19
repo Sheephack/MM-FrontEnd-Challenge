@@ -1,7 +1,7 @@
-@import "background";
 @import "variables";
 @import "navbar";
 @import "colorChangers";
+@import "animations";
 
 *{
     margin:0;
@@ -11,6 +11,7 @@
 
 html{
     height: 100%;
+    scroll-behavior: smooth;
 }
 body{
     background: $backgroundColor;
@@ -52,22 +53,24 @@ body{
         #section-0{
             font-family: MonkFontTittle;
             color: $tittleColor;
-            font-size: 4rem;
+            font-size: 5rem;
             display: flex;
             flex-direction: column;
             justify-content: center;
             grid-area: sec1;
 
             h1{
-                width: 60%;
-                line-height: 6rem;
+                width: 80%;
+                line-height: 7.5rem;
+                animation: appear 2s ease-in-out;
             }
+            
 
             .vectorContainer{
                 display: flex;
                 justify-content: flex-end;
                 padding-top: 1rem;
-                width: 50%;
+                width: 62%;
                 .vectorTrace{
                     width: 40%;
                 }
@@ -79,6 +82,10 @@ body{
             justify-content: center;
             align-items: center;
             grid-area: sec2;
+
+            .section-1__img{
+                opacity: 0
+            }
         }
 
         #section-2{
@@ -87,21 +94,30 @@ body{
             grid-area: sec3;
 
             .section-2__tittle{
-                width: 70%;
-                font-size: 5.4rem;
-                line-height: 6rem;
+                width: 80%;
+                font-size: 7rem;
+                line-height: 7rem;
+                margin-bottom: 7rem;
 
                 &--span{
                     display: inline-flex;
                     flex-direction: column;
                     justify-content: start;
+                    position: relative;
                     height: 3rem;
+
+                    img{
+                        position: absolute;
+                        top: -30px;
+                        width: 19rem;
+                        height: 1rem;
+                    }
                 }
             }
 
             .section-2__paragraph{
                 width: 40%;
-                font-family: MonkFontParagraph;
+                font-family: MonkFontTextRegular;
                 font-size: 2rem;
             }
         }
@@ -113,10 +129,12 @@ body{
 
             .section-3__tittle{
                 @extend .section-2__tittle;
+                width: 100%
 
             }
             .section-3__paragraph{
                 @extend .section-2__paragraph;
+                width: 38%;
             }
         }
 
@@ -124,13 +142,15 @@ body{
             @extend #section-3;
             color: $tittleColor4;
             grid-area: sec5;
-
+            
             .section-4__tittle{
                 @extend .section-2__tittle;
+                width: 75%;
             }
 
             .section-4__paragraph{
-                @extend .section-2__paragraph
+                @extend .section-2__paragraph;
+                width: 37%;
             }
         }
 
@@ -141,16 +161,25 @@ body{
 
             .section-5__tittle{
                 @extend .section-2__tittle;
+                width: 90%;
+                margin-bottom: 0;
+
             }
             .section-5__paragraph{
                 @extend .section-2__paragraph;
+                width: 38%;
+                margin-top: 7rem;
             }
             .section-5__midContainer{
                 display: flex;
                 justify-content: center;
-                width: 40%;
+                position: relative;
+                width: 55%;
+                height: 3rem;
                 &__img{
-                    width: 40%
+                    position: absolute;
+                    top: 0;
+                    width: 35%
                 }
             }
         }
@@ -162,9 +191,11 @@ body{
 
             .section-6__tittle{
                 @extend .section-2__tittle;
+                width: 60%;
             }
             .section-6__paragraph{
                 @extend .section-2__paragraph;
+                width: 39%;
             }
         }
     }
@@ -172,12 +203,4 @@ body{
 section{
     height: 100vh;
     min-height: 100vh;
-}
-.parallax{
-    background-image: url(../assets/Art.svg);
-    background-repeat: no-repeat;
-    background-position: bottom;
-    background-position-x: right;
-    perspective: 1px;
-    
 }

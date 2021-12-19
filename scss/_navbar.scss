@@ -10,16 +10,17 @@
     .bullet{
         margin: 0.3rem;
         border-radius: 50%;
-        width: 1.2rem;
-        height: 1.2rem;
+        width: 2rem;
+        height: 2rem;
         display: flex;
         justify-content: center;
         align-items: center;
         cursor: pointer;
 
         &__number{
-            font-family: MonkFontNav;
-            font-size: 0.7rem;
+            font-family: MonkFontTextRegular;
+            font-size: 1rem;
+            text-decoration: none;
         }
     }
 }

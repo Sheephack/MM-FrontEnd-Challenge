@@ -42,8 +42,15 @@
 
 .nav-grey{
     border: 2px solid $tittleColor;
-    &:hover{
+    &:hover, .active-grey{
         background: $tittleColor;
+        color: $backgroundColor;
+        width: 2rem;
+        height: 2rem;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
         .navItem-grey{
             color: $backgroundColor;
         }
@@ -52,10 +59,36 @@
 .navItem-grey{
     color: $tittleColor;
 }
+.nav-greyTwo{
+    border: 2px solid $tittleColor;
+    &:hover, .active-greyTwo{
+        background: $tittleColor;
+        color: $backgroundColor;
+        width: 2rem;
+        height: 2rem;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        .navItem-greyTwo{
+            color: $backgroundColor;
+        }
+    }
+}
+.navItem-greyTwo{
+    color: $tittleColor;
+}
 .nav-yellow{
     border: 2px solid $tittleColor2;
-    &:hover{
+    &:hover, .active-yellow{
         background: $tittleColor2;
+        color: $backgroundColor2;
+        width: 2rem;
+        height: 2rem;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
         .navItem-yellow{
             color: $backgroundColor2;
         }
@@ -67,8 +100,15 @@
 }
 .nav-blue{
     border: 2px solid $tittleColor3;
-    &:hover{
+    &:hover, .active-blue{
         background: $tittleColor3;
+        color: $tittleColor5;
+        width: 2rem;
+        height: 2rem;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
         .navItem-blue{
             color: $tittleColor5;
         }
@@ -79,8 +119,15 @@
 }
 .nav-violet{
     border: 2px solid $tittleColor4;
-    &:hover{
+    &:hover, .active-violet{
         background: $tittleColor4;
+        color: $backgroundColor3;
+        width: 2rem;
+        height: 2rem;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
         .navItem-violet{
             color: $backgroundColor3;
         }
@@ -91,8 +138,15 @@
 }
 .nav-lime{
     border: 2px solid $tittleColor5;
-    &:hover{
+    &:hover, .active-lime{
         background: $tittleColor5;
+        color: $tittleColor6;
+        width: 2rem;
+        height: 2rem;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
         .navItem-lime{
             color: $tittleColor6;
         }
@@ -103,8 +157,15 @@
 }
 .nav-green{
     border: 2px solid $tittleColor6;
-    &:hover{
+    &:hover, .active-green{
         background: $tittleColor6;
+        color: $backgroundColor4;
+        width: 2rem;
+        height: 2rem;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
         .navItem-green{
             color: $backgroundColor4;
         }

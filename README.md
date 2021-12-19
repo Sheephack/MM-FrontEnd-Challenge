@@ -4,4 +4,6 @@ This repository has been made to host the Media.Monks Frontend Challenge. The re
 
 ## Version changes:
 
-- Applied JS Color changers in MM Logo, background and navbar.
+- Removed Parallax from structure. (Will be added next)
+- Added animations.
+- Corrections to font-size and overall size of elements.

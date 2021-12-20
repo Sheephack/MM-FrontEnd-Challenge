@@ -43,7 +43,8 @@ body{
         }
         
         @media (min-width: $bp-xl-2){
-            height: 5rem;
+            align-items: center;
+            height:8rem;
         }
 
         &__img{
@@ -53,7 +54,7 @@ body{
                 width: 20%;
             }
             @media (min-width: $bp-xl-2){
-                height: 5%;
+                height: 25%;
             }
         }
     }

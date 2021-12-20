@@ -335,14 +335,25 @@
   }
 }
 .parallax-mirror {
-  display: flex;
-  justify-content: flex-end;
-  left: 230px !important;
+  display: none;
+}
+@media (min-width: 67em) {
+  .parallax-mirror {
+    display: flex;
+    justify-content: flex-end;
+    left: 230px !important;
+  }
 }
 
 .parallax-slider {
-  filter: opacity(50%);
-  top: -270px;
+  display: none;
+}
+@media (min-width: 67em) {
+  .parallax-slider {
+    display: block;
+    filter: opacity(50%);
+    top: -270px;
+  }
 }
 
 * {
@@ -390,7 +401,8 @@ body .logoContainer {
 }
 @media (min-width: 67em) {
   body .logoContainer {
-    height: 5rem;
+    align-items: center;
+    height: 8rem;
   }
 }
 body .logoContainer__img {
@@ -404,7 +416,7 @@ body .logoContainer__img {
 }
 @media (min-width: 67em) {
   body .logoContainer__img {
-    height: 5%;
+    height: 25%;
   }
 }
 body #container {

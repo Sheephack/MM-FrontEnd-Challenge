@@ -1,10 +1,18 @@
 .parallax-mirror{
-    display: flex;
-    justify-content: flex-end;
-    left: 230px!important;
+    display: none;
+    @media (min-width:$bp-xl-2){
+        display: flex;
+        justify-content: flex-end;
+        left: 230px!important;
+
+    }
 }
 .parallax-slider{
-    filter: opacity(50%);
-    top: -270px;
+    display: none;
+    @media (min-width:$bp-xl-2){
+        display: block;
+        filter: opacity(50%);
+        top: -270px;
+    }
     
 }

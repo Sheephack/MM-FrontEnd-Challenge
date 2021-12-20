@@ -4,6 +4,4 @@ This repository has been made to host the Media.Monks Frontend Challenge. The re
 
 ## Version changes:
 
-- Added Parallax Effect.
-- Animations overhaul.
-- Desktop Version complete.
+- Added Mobile responsive.

@@ -6,6 +6,10 @@
     position: sticky;
     justify-content: center;
     top: 0;
+    margin-right: 0.5rem;
+    @media (min-width:$bp-med){
+        margin-right: 0;
+    }
 
     .bullet{
         margin: 0.3rem;

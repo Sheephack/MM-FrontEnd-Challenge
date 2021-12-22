@@ -394,6 +394,11 @@ body .logoContainer {
   top: 0;
   z-index: 100;
 }
+@media (min-width: 40em) and (orientation: landscape) {
+  body .logoContainer {
+    height: 3em;
+  }
+}
 @media (min-width: 54.4em) {
   body .logoContainer {
     height: 10rem;
@@ -408,6 +413,11 @@ body .logoContainer {
 body .logoContainer__img {
   width: 20%;
   height: auto;
+}
+@media (min-width: 40em) and (orientation: landscape) {
+  body .logoContainer__img {
+    width: 10%;
+  }
 }
 @media (min-width: 54.4em) {
   body .logoContainer__img {
@@ -443,12 +453,17 @@ body #container #section-0, body #container #section-2, body #container #section
   min-height: 100vh;
   width: 100%;
 }
-@media (min-width: 39.8em) {
+@media (min-width: 40em) {
   body #container #section-0, body #container #section-2, body #container #section-3, body #container #section-6, body #container #section-5, body #container #section-4 {
     font-size: 3rem;
   }
 }
-@media (min-width: 54.4em) {
+@media (min-width: 40em) and (orientation: landscape) {
+  body #container #section-0, body #container #section-2, body #container #section-3, body #container #section-6, body #container #section-5, body #container #section-4 {
+    font-size: 1.5rem;
+  }
+}
+@media (min-width: 90em) {
   body #container #section-0, body #container #section-2, body #container #section-3, body #container #section-6, body #container #section-5, body #container #section-4 {
     font-size: 5rem;
   }
@@ -458,7 +473,7 @@ body #container #section-0 h1, body #container #section-2 h1, body #container #s
   width: 80%;
   animation: appear 2s ease-in-out;
 }
-@media (min-width: 54.4em) {
+@media (min-width: 90em) {
   body #container #section-0 h1, body #container #section-2 h1, body #container #section-3 h1, body #container #section-6 h1, body #container #section-5 h1, body #container #section-4 h1 {
     width: 80%;
     line-height: 7.5rem;
@@ -469,6 +484,16 @@ body #container #section-0 .vectorContainer, body #container #section-2 .vectorC
   display: flex;
   justify-content: flex-end;
   width: 80%;
+}
+@media (min-width: 40em) and (orientation: landscape) {
+  body #container #section-0 .vectorContainer, body #container #section-2 .vectorContainer, body #container #section-3 .vectorContainer, body #container #section-6 .vectorContainer, body #container #section-5 .vectorContainer, body #container #section-4 .vectorContainer {
+    width: 65%;
+  }
+}
+@media (min-width: 45em) and (orientation: landscape) {
+  body #container #section-0 .vectorContainer, body #container #section-2 .vectorContainer, body #container #section-3 .vectorContainer, body #container #section-6 .vectorContainer, body #container #section-5 .vectorContainer, body #container #section-4 .vectorContainer {
+    width: 45%;
+  }
 }
 @media (min-width: 54.4em) {
   body #container #section-0 .vectorContainer, body #container #section-2 .vectorContainer, body #container #section-3 .vectorContainer, body #container #section-6 .vectorContainer, body #container #section-5 .vectorContainer, body #container #section-4 .vectorContainer {
@@ -488,12 +513,6 @@ body #container #section-1 {
   min-height: 100vh;
   width: 100%;
 }
-@media (min-width: 67em) {
-  body #container #section-1 {
-    height: 100vh;
-    min-height: 100vh;
-  }
-}
 body #container #section-1 div {
   display: flex;
   justify-content: center;
@@ -503,7 +522,12 @@ body #container #section-1 .section-1__img {
   opacity: 0;
   width: 80%;
 }
-@media (min-width: 54.4em) {
+@media (min-width: 40em) and (orientation: landscape) {
+  body #container #section-1 .section-1__img {
+    width: 60%;
+  }
+}
+@media (min-width: 90em) {
   body #container #section-1 .section-1__img {
     width: 100%;
   }
@@ -518,12 +542,29 @@ body #container #section-2 .section-2__tittle, body #container #section-3 .secti
   margin-bottom: 7rem;
   margin-left: 1rem;
 }
-@media (min-width: 39.8em) {
+@media (min-width: 40em) {
   body #container #section-2 .section-2__tittle, body #container #section-3 .section-2__tittle, body #container #section-6 .section-2__tittle, body #container #section-6 .section-6__tittle, body #container #section-5 .section-2__tittle, body #container #section-5 .section-5__tittle, body #container #section-4 .section-2__tittle, body #container #section-4 .section-4__tittle, body #container #section-3 .section-3__tittle, body #container #section-6 .section-3__tittle, body #container #section-5 .section-3__tittle, body #container #section-4 .section-3__tittle {
     font-size: 3.5rem;
   }
 }
-@media (min-width: 54.4em) {
+@media (min-width: 40em) and (orientation: landscape) {
+  body #container #section-2 .section-2__tittle, body #container #section-3 .section-2__tittle, body #container #section-6 .section-2__tittle, body #container #section-6 .section-6__tittle, body #container #section-5 .section-2__tittle, body #container #section-5 .section-5__tittle, body #container #section-4 .section-2__tittle, body #container #section-4 .section-4__tittle, body #container #section-3 .section-3__tittle, body #container #section-6 .section-3__tittle, body #container #section-5 .section-3__tittle, body #container #section-4 .section-3__tittle {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+}
+@media (min-width: 45em) and (orientation: landscape) {
+  body #container #section-2 .section-2__tittle, body #container #section-3 .section-2__tittle, body #container #section-6 .section-2__tittle, body #container #section-6 .section-6__tittle, body #container #section-5 .section-2__tittle, body #container #section-5 .section-5__tittle, body #container #section-4 .section-2__tittle, body #container #section-4 .section-4__tittle, body #container #section-3 .section-3__tittle, body #container #section-6 .section-3__tittle, body #container #section-5 .section-3__tittle, body #container #section-4 .section-3__tittle {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+  }
+}
+@media (min-width: 75em) {
+  body #container #section-2 .section-2__tittle, body #container #section-3 .section-2__tittle, body #container #section-6 .section-2__tittle, body #container #section-6 .section-6__tittle, body #container #section-5 .section-2__tittle, body #container #section-5 .section-5__tittle, body #container #section-4 .section-2__tittle, body #container #section-4 .section-4__tittle, body #container #section-3 .section-3__tittle, body #container #section-6 .section-3__tittle, body #container #section-5 .section-3__tittle, body #container #section-4 .section-3__tittle {
+    margin-bottom: 4rem;
+  }
+}
+@media (min-width: 90em) {
   body #container #section-2 .section-2__tittle, body #container #section-3 .section-2__tittle, body #container #section-6 .section-2__tittle, body #container #section-6 .section-6__tittle, body #container #section-5 .section-2__tittle, body #container #section-5 .section-5__tittle, body #container #section-4 .section-2__tittle, body #container #section-4 .section-4__tittle, body #container #section-3 .section-3__tittle, body #container #section-6 .section-3__tittle, body #container #section-5 .section-3__tittle, body #container #section-4 .section-3__tittle {
     width: 80%;
     font-size: 7rem;
@@ -538,18 +579,34 @@ body #container #section-2 .section-2__tittle--span, body #container #section-3 
   position: relative;
   height: 2rem;
 }
-@media (min-width: 39.8em) {
+@media (min-width: 40em) {
   body #container #section-2 .section-2__tittle--span, body #container #section-3 .section-2__tittle--span, body #container #section-6 .section-2__tittle--span, body #container #section-5 .section-2__tittle--span, body #container #section-4 .section-2__tittle--span {
     height: 3rem;
+  }
+}
+@media (min-width: 40em) and (orientation: landscape) {
+  body #container #section-2 .section-2__tittle--span, body #container #section-3 .section-2__tittle--span, body #container #section-6 .section-2__tittle--span, body #container #section-5 .section-2__tittle--span, body #container #section-4 .section-2__tittle--span {
+    height: 2rem;
+  }
+}
+@media (min-width: 45em) and (orientation: landscape) {
+  body #container #section-2 .section-2__tittle--span, body #container #section-3 .section-2__tittle--span, body #container #section-6 .section-2__tittle--span, body #container #section-5 .section-2__tittle--span, body #container #section-4 .section-2__tittle--span {
+    height: 2.5rem;
   }
 }
 body #container #section-2 .section-2__tittle--span img, body #container #section-3 .section-2__tittle--span img, body #container #section-6 .section-2__tittle--span img, body #container #section-5 .section-2__tittle--span img, body #container #section-4 .section-2__tittle--span img {
   position: absolute;
   width: 6rem;
 }
-@media (min-width: 39.8em) {
+@media (min-width: 40em) {
   body #container #section-2 .section-2__tittle--span img, body #container #section-3 .section-2__tittle--span img, body #container #section-6 .section-2__tittle--span img, body #container #section-5 .section-2__tittle--span img, body #container #section-4 .section-2__tittle--span img {
     width: 9rem;
+  }
+}
+@media (min-width: 40em) and (orientation: landscape) {
+  body #container #section-2 .section-2__tittle--span img, body #container #section-3 .section-2__tittle--span img, body #container #section-6 .section-2__tittle--span img, body #container #section-5 .section-2__tittle--span img, body #container #section-4 .section-2__tittle--span img {
+    width: 6rem;
+    left: 150px;
   }
 }
 @media (min-width: 67em) {
@@ -565,12 +622,17 @@ body #container #section-2 .section-2__paragraph, body #container #section-3 .se
   font-size: 1rem;
   margin-left: 1rem;
 }
-@media (min-width: 39.8em) {
+@media (min-width: 40em) {
   body #container #section-2 .section-2__paragraph, body #container #section-3 .section-2__paragraph, body #container #section-6 .section-2__paragraph, body #container #section-6 .section-6__paragraph, body #container #section-5 .section-2__paragraph, body #container #section-5 .section-5__paragraph, body #container #section-4 .section-2__paragraph, body #container #section-4 .section-4__paragraph, body #container #section-3 .section-3__paragraph, body #container #section-6 .section-3__paragraph, body #container #section-5 .section-3__paragraph, body #container #section-4 .section-3__paragraph {
     font-size: 2rem;
   }
 }
-@media (min-width: 54.4em) {
+@media (min-width: 40em) and (orientation: landscape) {
+  body #container #section-2 .section-2__paragraph, body #container #section-3 .section-2__paragraph, body #container #section-6 .section-2__paragraph, body #container #section-6 .section-6__paragraph, body #container #section-5 .section-2__paragraph, body #container #section-5 .section-5__paragraph, body #container #section-4 .section-2__paragraph, body #container #section-4 .section-4__paragraph, body #container #section-3 .section-3__paragraph, body #container #section-6 .section-3__paragraph, body #container #section-5 .section-3__paragraph, body #container #section-4 .section-3__paragraph {
+    font-size: 1rem;
+  }
+}
+@media (min-width: 90em) {
   body #container #section-2 .section-2__paragraph, body #container #section-3 .section-2__paragraph, body #container #section-6 .section-2__paragraph, body #container #section-6 .section-6__paragraph, body #container #section-5 .section-2__paragraph, body #container #section-5 .section-5__paragraph, body #container #section-4 .section-2__paragraph, body #container #section-4 .section-4__paragraph, body #container #section-3 .section-3__paragraph, body #container #section-6 .section-3__paragraph, body #container #section-5 .section-3__paragraph, body #container #section-4 .section-3__paragraph {
     width: 40%;
     font-size: 2rem;
@@ -584,7 +646,7 @@ body #container #section-3, body #container #section-6, body #container #section
 body #container #section-3 .section-3__tittle, body #container #section-6 .section-3__tittle, body #container #section-5 .section-3__tittle, body #container #section-4 .section-3__tittle {
   width: 100%;
 }
-@media (min-width: 54.4em) {
+@media (min-width: 90em) {
   body #container #section-3 .section-3__paragraph, body #container #section-6 .section-3__paragraph, body #container #section-5 .section-3__paragraph, body #container #section-4 .section-3__paragraph {
     width: 38%;
   }
@@ -601,7 +663,7 @@ body #container #section-4 .section-4__tittle {
     width: 75%;
   }
 }
-@media (min-width: 54.4em) {
+@media (min-width: 90em) {
   body #container #section-4 .section-4__paragraph {
     width: 37%;
   }
@@ -614,7 +676,7 @@ body #container #section-5 .section-5__tittle {
   width: 90%;
   margin-bottom: 0;
 }
-@media (min-width: 54.4em) {
+@media (min-width: 90em) {
   body #container #section-5 .section-5__paragraph {
     width: 38%;
     margin-top: 7rem;
@@ -627,9 +689,19 @@ body #container #section-5 .section-5__midContainer {
   height: 3rem;
   margin-left: 1rem;
 }
-@media (min-width: 39.8em) {
+@media (min-width: 40em) {
   body #container #section-5 .section-5__midContainer {
     justify-content: center;
+  }
+}
+@media (min-width: 40em) and (orientation: landscape) {
+  body #container #section-5 .section-5__midContainer {
+    width: 90%;
+  }
+}
+@media (min-width: 45em) and (orientation: landscape) {
+  body #container #section-5 .section-5__midContainer {
+    width: 100%;
   }
 }
 @media (min-width: 54.4em) {
@@ -641,6 +713,11 @@ body #container #section-5 .section-5__midContainer__img {
   position: absolute;
   top: 0;
   width: 50%;
+}
+@media (min-width: 40em) and (orientation: landscape) {
+  body #container #section-5 .section-5__midContainer__img {
+    width: 20%;
+  }
 }
 @media (min-width: 54.4em) {
   body #container #section-5 .section-5__midContainer__img {
@@ -656,7 +733,7 @@ body #container #section-6 {
     width: 60%;
   }
 }
-@media (min-width: 54.4em) {
+@media (min-width: 90em) {
   body #container #section-6 .section-6__paragraph {
     width: 39%;
   }

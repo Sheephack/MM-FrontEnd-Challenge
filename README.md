@@ -19,3 +19,5 @@ The website should be compatible with most mobile devices on portrait orientatio
 - IPad and IPad Pro.
 - Surface Duo.
 - Galaxy S5 and above.
+
+Added compatibility with some landscape visualizations on mobile. (Not completed)

@@ -16,3 +16,10 @@
     }
     
 }
+
+.parallax-window{
+    background: none!important;
+    @media (min-width:$bp-xl-2){
+        background: url(../assets/Art.svg);
+    }
+}

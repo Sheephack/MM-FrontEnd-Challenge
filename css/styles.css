@@ -356,6 +356,15 @@
   }
 }
 
+.parallax-window {
+  background: none !important;
+}
+@media (min-width: 67em) {
+  .parallax-window {
+    background: url(../assets/Art.svg);
+  }
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -459,6 +468,16 @@ body #container #section-0, body #container #section-2, body #container #section
   }
 }
 @media only screen and (min-width: 40em) {
+  body #container #section-0, body #container #section-2, body #container #section-3, body #container #section-6, body #container #section-5, body #container #section-4 {
+    font-size: 3rem;
+  }
+}
+@media (min-width: 50em) and (orientation: landscape) {
+  body #container #section-0, body #container #section-2, body #container #section-3, body #container #section-6, body #container #section-5, body #container #section-4 {
+    font-size: 2.1rem;
+  }
+}
+@media (min-width: 54.4em) {
   body #container #section-0, body #container #section-2, body #container #section-3, body #container #section-6, body #container #section-5, body #container #section-4 {
     font-size: 3rem;
   }

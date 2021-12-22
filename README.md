@@ -6,6 +6,10 @@ URL: https://sheephack.github.io/MM-FrontEnd-Challenge/
 
 ## Version changes:
 
+Fixed parallax showing up in mobile devices.
+
+-------
+
 Fixed responsive in 1366px x 768px (common LG monitor model).
 
 -------

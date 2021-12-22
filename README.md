@@ -4,7 +4,16 @@ This repository has been made to host the Media.Monks Frontend Challenge. The re
 
 URL: https://sheephack.github.io/MM-FrontEnd-Challenge/
 
+Depdenencies:
+- jQuery
+- Parallax.js
 ## Version changes:
+
+- Fixed mayor problems with responsive in landscape mode.
+- Added Favicon
+- Title changed to "Are you ready?"
+
+-------
 
 Fixed parallax showing up in mobile devices.
 

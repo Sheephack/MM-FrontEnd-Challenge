@@ -462,14 +462,14 @@ body #container #section-0, body #container #section-2, body #container #section
   min-height: 100vh;
   width: 100%;
 }
-@media (min-width: 40em) and (orientation: landscape) {
-  body #container #section-0, body #container #section-2, body #container #section-3, body #container #section-6, body #container #section-5, body #container #section-4 {
-    font-size: 1.5rem;
-  }
-}
 @media only screen and (min-width: 40em) {
   body #container #section-0, body #container #section-2, body #container #section-3, body #container #section-6, body #container #section-5, body #container #section-4 {
     font-size: 3rem;
+  }
+}
+@media (min-width: 40em) and (orientation: landscape) {
+  body #container #section-0, body #container #section-2, body #container #section-3, body #container #section-6, body #container #section-5, body #container #section-4 {
+    font-size: 1.5rem;
   }
 }
 @media (min-width: 50em) and (orientation: landscape) {
@@ -573,20 +573,32 @@ body #container #section-2 .section-2__tittle, body #container #section-3 .secti
   margin-bottom: 7rem;
   margin-left: 1rem;
 }
+@media (min-width: 29.75em) and (orientation: landscape) {
+  body #container #section-2 .section-2__tittle, body #container #section-3 .section-2__tittle, body #container #section-6 .section-2__tittle, body #container #section-6 .section-6__tittle, body #container #section-5 .section-2__tittle, body #container #section-5 .section-5__tittle, body #container #section-4 .section-2__tittle, body #container #section-4 .section-4__tittle, body #container #section-3 .section-3__tittle, body #container #section-6 .section-3__tittle, body #container #section-5 .section-3__tittle, body #container #section-4 .section-3__tittle {
+    margin-bottom: 0.2rem;
+  }
+}
+@media (min-width: 40em) {
+  body #container #section-2 .section-2__tittle, body #container #section-3 .section-2__tittle, body #container #section-6 .section-2__tittle, body #container #section-6 .section-6__tittle, body #container #section-5 .section-2__tittle, body #container #section-5 .section-5__tittle, body #container #section-4 .section-2__tittle, body #container #section-4 .section-4__tittle, body #container #section-3 .section-3__tittle, body #container #section-6 .section-3__tittle, body #container #section-5 .section-3__tittle, body #container #section-4 .section-3__tittle {
+    font-size: 3.5rem;
+    margin-bottom: 1rem;
+  }
+}
 @media (min-width: 40em) and (orientation: landscape) {
   body #container #section-2 .section-2__tittle, body #container #section-3 .section-2__tittle, body #container #section-6 .section-2__tittle, body #container #section-6 .section-6__tittle, body #container #section-5 .section-2__tittle, body #container #section-5 .section-5__tittle, body #container #section-4 .section-2__tittle, body #container #section-4 .section-4__tittle, body #container #section-3 .section-3__tittle, body #container #section-6 .section-3__tittle, body #container #section-5 .section-3__tittle, body #container #section-4 .section-3__tittle {
     font-size: 2rem;
     margin-bottom: 1rem;
   }
 }
-@media (min-width: 40em) {
-  body #container #section-2 .section-2__tittle, body #container #section-3 .section-2__tittle, body #container #section-6 .section-2__tittle, body #container #section-6 .section-6__tittle, body #container #section-5 .section-2__tittle, body #container #section-5 .section-5__tittle, body #container #section-4 .section-2__tittle, body #container #section-4 .section-4__tittle, body #container #section-3 .section-3__tittle, body #container #section-6 .section-3__tittle, body #container #section-5 .section-3__tittle, body #container #section-4 .section-3__tittle {
-    font-size: 3.5rem;
-  }
-}
 @media (min-width: 45em) and (orientation: landscape) {
   body #container #section-2 .section-2__tittle, body #container #section-3 .section-2__tittle, body #container #section-6 .section-2__tittle, body #container #section-6 .section-6__tittle, body #container #section-5 .section-2__tittle, body #container #section-5 .section-5__tittle, body #container #section-4 .section-2__tittle, body #container #section-4 .section-4__tittle, body #container #section-3 .section-3__tittle, body #container #section-6 .section-3__tittle, body #container #section-5 .section-3__tittle, body #container #section-4 .section-3__tittle {
     font-size: 2.5rem;
+    margin-bottom: 1rem;
+  }
+}
+@media (min-width: 50em) and (orientation: landscape) {
+  body #container #section-2 .section-2__tittle, body #container #section-3 .section-2__tittle, body #container #section-6 .section-2__tittle, body #container #section-6 .section-6__tittle, body #container #section-5 .section-2__tittle, body #container #section-5 .section-5__tittle, body #container #section-4 .section-2__tittle, body #container #section-4 .section-4__tittle, body #container #section-3 .section-3__tittle, body #container #section-6 .section-3__tittle, body #container #section-5 .section-3__tittle, body #container #section-4 .section-3__tittle {
+    font-size: 3rem;
     margin-bottom: 1rem;
   }
 }
@@ -633,12 +645,17 @@ body #container #section-2 .section-2__tittle--span img, body #container #sectio
 @media (min-width: 40em) and (orientation: landscape) {
   body #container #section-2 .section-2__tittle--span img, body #container #section-3 .section-2__tittle--span img, body #container #section-6 .section-2__tittle--span img, body #container #section-5 .section-2__tittle--span img, body #container #section-4 .section-2__tittle--span img {
     width: 6rem;
-    left: 150px;
+    left: 100px;
   }
 }
 @media (min-width: 40em) {
   body #container #section-2 .section-2__tittle--span img, body #container #section-3 .section-2__tittle--span img, body #container #section-6 .section-2__tittle--span img, body #container #section-5 .section-2__tittle--span img, body #container #section-4 .section-2__tittle--span img {
     width: 9rem;
+  }
+}
+@media (min-width: 50em) and (orientation: landscape) {
+  body #container #section-2 .section-2__tittle--span img, body #container #section-3 .section-2__tittle--span img, body #container #section-6 .section-2__tittle--span img, body #container #section-5 .section-2__tittle--span img, body #container #section-4 .section-2__tittle--span img {
+    left: 170px;
   }
 }
 @media (min-width: 67em) {
@@ -757,6 +774,11 @@ body #container #section-5 .section-5__midContainer {
     margin-left: 0px;
   }
 }
+@media (min-width: 60em) and (orientation: landscape) {
+  body #container #section-5 .section-5__midContainer {
+    width: 40%;
+  }
+}
 @media (min-width: 75em) {
   body #container #section-5 .section-5__midContainer {
     width: 55%;
@@ -800,11 +822,6 @@ body #container #section-6 {
   body #container #section-6 .section-6__paragraph {
     width: 39%;
   }
-}
-
-section {
-  height: 100vh;
-  min-height: 100vh;
 }
 
 /*# sourceMappingURL=styles.css.map */
